@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/claude-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Claude Code 作品集 | AI开发能力展示</title>
+    <meta name="description" content="Claude Code 作品集 - 展示强大的AI开发能力，包括AI助手矩阵、内容帝国自动化、股票研究助手等创新项目" />
+    <meta name="keywords" content="Claude Code, AI开发, 作品集, 人工智能, 自动化, 机器学习, 软件开发" />
+    <meta name="author" content="Claude Code" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Claude Code 作品集 | AI开发能力展示" />
+    <meta property="og:description" content="展示 Claude Code 强大的AI开发能力，包含多个创新项目和技术解决方案" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourusername.github.io/claude-code-portfolio/" />
+    <meta property="og:image" content="https://yourusername.github.io/claude-code-portfolio/og-image.png" />
+    <meta property="og:site_name" content="Claude Code Portfolio" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Claude Code 作品集 | AI开发能力展示" />
+    <meta name="twitter:description" content="展示 Claude Code 强大的AI开发能力，包含多个创新项目和技术解决方案" />
+    <meta name="twitter:image" content="https://yourusername.github.io/claude-code-portfolio/og-image.png" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="msapplication-navbutton-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Claude Portfolio">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/hero-bg.webp" as="image" type="image/webp">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Claude Code",
+      "url": "https://yourusername.github.io/claude-code-portfolio/",
+      "sameAs": [
+        "https://github.com/HSG020"
+      ],
+      "jobTitle": "AI Developer",
+      "description": "Claude Code - AI开发专家，专注于创新的人工智能解决方案和自动化系统",
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Web Development",
+        "Automation",
+        "Software Engineering"
+      ]
+    }
+    </script>
+    
+    <!-- Analytics -->
+    <script>
+      // 简单的页面访问统计
+      if (typeof localStorage !== 'undefined') {
+        const visits = parseInt(localStorage.getItem('portfolio-visits') || '0') + 1;
+        localStorage.setItem('portfolio-visits', visits.toString());
+        localStorage.setItem('last-visit', new Date().toISOString());
+      }
+    </script>
+  </head>
+  <body class="font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Loading fallback -->
+    <noscript>
+      <div style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #0f172a;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Inter, sans-serif;
+        text-align: center;
+        padding: 2rem;
+      ">
+        <div>
+          <h1 style="font-size: 2rem; margin-bottom: 1rem;">Claude Code 作品集</h1>
+          <p style="font-size: 1.1rem; opacity: 0.8;">请启用 JavaScript 以查看完整的作品集体验</p>
+          <p style="margin-top: 1rem;">
+            <a href="https://github.com/HSG020" style="color: #3b82f6; text-decoration: underline;">
+              访问 GitHub 查看项目源码
+            </a>
+          </p>
+        </div>
+      </div>
+    </noscript>
+  </body>
+</html>
